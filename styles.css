@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+*{
+  margin: 0;padding: 0;
+  font-family: Arial;
+}
+body{
+  background-color: #bcbcbc;
+}
+
+.header{
+  background-color: #011e29;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px ;
+}
+.news-container{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 10px;
+ 
+}
+.news-container div{
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.latest-news-section{
+
+}
+.latest-news-section>ul>li{
+  list-style: disc;
+}
+
+
+.pictorial-news-section{
+
+}
+img{
+  width: 200px;
+}
